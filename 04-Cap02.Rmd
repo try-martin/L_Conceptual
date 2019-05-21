@@ -68,3 +68,4 @@ La analítica o minería de datos (_analytics_) –al igual que el fenómeno 
 
 En segundo lugar, la analítica de datos requiere de la existencia, el dominio y el uso de metodologías y rutinas soportadas en _software_ especializados capaces de ejecutar múltiples algoritmos asociados a las técnicas existentes. Entre los software más populares hoy disponibles para la ejecución de técnicas de minería de datos se encuentran, en el ámbito comercial, KMINE, RapidMiner, SAS e IBM y, en el escenario del _software_ libre, R y Python principalmente.
 
+## **Inteligencia de negocios**
