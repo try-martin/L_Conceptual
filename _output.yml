@@ -1,0 +1,25 @@
+bookdown::gitbook:
+  css: css/style.css
+  split_by: chapter+number
+  config:
+    toc:
+      collapse: none
+      before: |
+        <li></br><center><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Escudo_unal_2016.png"  height=50 width="40"> <a href="./">Información cuantitativa en </br> las universidades</a></center></li>
+      after: |
+        <li><center><a href="http://unal.edu.co/" target="blank"> Universidad Nacional de Colombia </a></center></li>
+    download: ["pdf", "epub", "mobi"]
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
+    includes:
+    after_body: docs/libs/unal/html/scripts.html
+    in_header: docs/libs/unal/html/style.html
+bookdown::pdf_book:
+  includes:
+    in_header: latex/preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  quote_footer: ["\\VA{", "}{}"]
+bookdown::epub_book: default
